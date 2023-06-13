@@ -54,7 +54,7 @@ export function article_page(data){
 
 export function article_cateId(data){
     return request({
-        url: `api/api/article/${data}`,
+        url: `api/article/${data}`,
 		method: 'get',
     });
 }
